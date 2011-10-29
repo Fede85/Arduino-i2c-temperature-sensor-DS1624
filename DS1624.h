@@ -8,12 +8,12 @@
 
 #ifndef DS1624_h
 #define DS1624_h
-#include "WProgram.h"
+#include "Arduino.h"
 #include <Wire.h>
 
-#define CONTINUOUS_CONVERSION 0x00
-#define CONVERT_T 0xEE
-#define READ_T 0xAA
+#define CONTINUOUS_CONVERSION ((uint8_t)0x00)
+#define CONVERT_T ((uint8_t)0xEE)
+#define READ_T ((uint8_t)0xAA)
 
 class DS1624
 {
