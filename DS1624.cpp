@@ -1,9 +1,13 @@
 /*
   Library for controlling the DS1624 ic with Arduino
-  Tested with arduino-0018
-  26/03/2010 Release 0.1
-  Written by Federico and Riccardo Galli
+  Tested with arduino-1.0 rc1
+
+  26/03/2010 Release 0.1 (compliant only with 0022 or older)
+  Written by Federico and Riccardo Galli  
   http://www.sideralis.org
+
+  Revised to reach the Arduino 1.0 standards by:
+  Federico Vanzati / f.vanzati@gmail.com
 */
 
 #include "Arduino.h"
